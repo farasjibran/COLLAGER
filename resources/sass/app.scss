@@ -1,0 +1,592 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// login CSS
+.background {
+    height: 93vh;
+    background-position-y: -150px;
+    background-image: url("img/Group 45.jpg");
+    background-size: cover;
+    // padding-bottom: 500px;
+    background-repeat: no-repeat;
+}
+
+.formlogin {
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.bungkuscontn {
+    margin-top: 90px;
+}
+
+.inputemail {
+    margin-left: 40px;
+}
+
+.inputpassword {
+    margin-left: 40px;
+}
+
+.bungkus {
+    margin-left: 120px;
+    margin-right: 150px;
+    padding-left: 100px;
+}
+
+.bungkusdash {
+    margin-top: 70px;
+}
+
+.bungkus1 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+.inibtn {
+    border-radius: 100px;
+    width: 150px;
+    background-color: #ff6060;
+}
+
+.bungkusbtn {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.forgetpas {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #00c2ff;
+}
+
+.register {
+    margin-left: 250px;
+    color: white;
+}
+
+.linkregis {
+    color: #00c2ff;
+}
+
+.garis1 {
+    width: 45px;
+    border: 1px solid #ff6060;
+    margin-top: -10px;
+}
+
+.bungkussemua {
+    margin-right: 20px;
+    margin-top: -50px;
+}
+
+// Akhir login CSS
+
+// Register CSS
+
+.inputname {
+    margin-left: 40px;
+}
+
+.email {
+    margin-left: 40px;
+}
+
+.password {
+    margin-left: 40px;
+}
+
+.confirm {
+    margin-left: 40px;
+}
+
+.bungkusregis {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 90px;
+    padding-left: 10px;
+}
+
+.garis2 {
+    width: 45px;
+    border: 1px solid #ff6060;
+    margin-left: 170px;
+}
+
+.bungkussemua1 {
+    margin-left: 10px;
+}
+
+// Akhir register CSS
+
+// Home CSS
+
+.sidebarr1 {
+    background-color: #F1E8E8;
+    height: 100vh;
+    position: fixed;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #FF7575;
+}
+
+.fotologo {
+    margin-top: 80px;
+    margin-bottom: 45px;
+    margin-left: 70px;
+}
+
+.sidebarr1 a {
+    color: black;
+    font-size: 20px;
+}
+
+.contents {
+    position: absolute;
+    top: 0;
+    right: 1%;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+// content untuk modul
+.contentsmodal {
+    position: absolute;
+    top: 0;
+    right: 1%;
+    // height: 200vh;
+    background-color: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+// akhir css modul
+
+.bungkuscontent {
+    margin: 0px;
+}
+
+.menu {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.home img {
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+.dasboard img {
+    margin-right: 10px;
+}
+
+.kampus img {
+    margin-right: 10px;
+}
+
+.menuhom {
+    margin-bottom: 10px;
+}
+
+.menudash {
+    margin-bottom: 10px;
+}
+
+// Akhir home CSS
+
+// Content CSS
+
+.searchbtn {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.searchform button {
+    border-radius: 100px;
+    background: #f1f1f1;
+    width: 50px;
+    height: 46px;
+    border: 1px;
+    margin-left: -50px;
+}
+
+.searchform input[type=text] {
+    border-radius: 100px;
+    background: #f1f1f1;
+    width: 250px;
+    height: 46px;
+    border: 1px;
+    padding: 20px;
+}
+
+.auth {
+    margin-top: 30px;
+    margin-left: 650px;
+}
+
+.navbarauth {
+    margin-left: 35px;
+    margin-right: -20px;
+    color: black;
+}
+
+.dropdownmenu {
+    min-width: 7em;
+}
+
+// carousel
+
+.contentt {
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+    height: 300px;
+}
+
+.itemimg img {
+    width: 100%;
+    height: 300px;
+}
+
+.carousel-indicators li {
+    background-color: #FF7575;
+    border-radius: 100%;
+    width: 11px;
+    height: 12px;
+}
+
+.carousel-indicators {
+    margin-bottom: -20px;
+}
+
+.indikator {
+    margin-bottom: 35px;
+}
+
+.data1 p {
+    margin-top: -120px;
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.btnmulai {
+    margin-top: -50px;
+    margin-left: 380px;
+}
+
+.btnmulai button {
+    border-radius: 100px;
+    width: 100px;
+    height: 32px;
+}
+
+// fitur
+
+.fitur {
+    margin-top: -15px;
+    margin-left: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0 2px 6px rgba($color: #000000, $alpha: 0.2);
+    padding: 20px;
+    width: 800px;
+    margin-left: 200px;
+}
+
+.kampusmenu {
+    width: 5rem;
+    margin-bottom: 15px;
+    margin-top: -5px;
+    margin-left: -75px;
+}
+
+.headkampus {
+    margin-left: -45px;
+    margin-top: 8px;
+}
+
+// dashboard css
+
+.dashboardmenu {
+    margin-top: 5%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-left: 1%;
+    box-shadow: 0 2px 6px rgba($color: #000000, $alpha: 0.2);
+    height: 100%;
+}
+
+.textdashboard {
+    background-color: #E44C4C;
+    width: 200px;
+    margin-left: 0%;
+    margin-top: 10%;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 33px;
+    border-top-right-radius: 33px;
+    box-shadow: 0 2px 6px rgba($color: #000000, $alpha: 0.2);
+}
+
+.textdashboard p {
+    margin-left: 10%;
+}
+
+.textdashboard p {
+    color: white;
+    margin-top: 6%;
+    font-size: 20px;
+}
+
+.dashboardtext {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.menutext a {
+    font-size: 20px;
+    margin-bottom: 10%;
+    text-decoration: none;
+}
+
+.hoverlink {
+    display: inline-block;
+    color: #7d7e80;
+}
+
+.hoverlink::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #E44C4C;
+    transition: width .3s;
+}
+
+.hoverlink:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+.active,
+.hoverlink:hover {
+    color: black;
+}
+
+.bungkusdash {
+    margin-left: 10%;
+}
+
+.dashwelcome {
+    width: 700px;
+    margin-top: 6%;
+}
+
+.dashwelcome img {
+    width: 100%;
+    box-shadow: 0 2px 6px rgba($color: #000000, $alpha: 0.2);
+}
+
+.headerdash {
+    margin-left: 2%;
+    margin-top: -20%;
+    color: white;
+    font-size: 18px;
+}
+
+.modul1 {
+    margin-left: 10%;
+}
+
+.modul2 {
+    margin-left: -20%;
+}
+
+.modul3 {
+    margin-left: -50%;
+}
+
+.judulmodul1 {
+    font-size: 20px;
+    color: white;
+    margin-top: -20%;
+    margin-left: 30%;
+}
+
+.judulmodul2 {
+    font-size: 20px;
+    color: white;
+    margin-top: -20%;
+    margin-left: 10%;
+}
+
+.judulmodul3 {
+    font-size: 20px;
+    color: white;
+    margin-top: -20%;
+    margin-left: -30%;
+}
+
+.menudashboard p:hover {
+    color: #E44C4C;
+}
+
+// akhir dashboard css
+
+// modul kepribadian css
+
+.textmodul {
+    border-radius: 100px;
+    margin-top: -72px;
+    margin-left: 4%;
+    background-color: #E44C4C;
+    color: white;
+    height: 61px;
+    width: 300px;
+}
+
+.judultext p {
+    margin-left: 25%;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+// akhir css
+
+// modul css
+
+.backbttn {
+    margin-top: 1%;
+}
+
+// akhir css
+
+// kampus css
+
+// .kampushead {
+//     width: 50px;
+//     background-color: #FF7575;
+// }
+
+.judulkampus p {
+    margin-left: 25%;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.textkampus {
+    border-radius: 100px;
+    margin-top: -65px;
+    margin-left: 1%;
+    background-color: white;
+    color: black;
+    height: 55px;
+    width: 300px;
+    box-shadow: 0 2px 6px rgba($color: #000000, $alpha: 0.2);
+}
+
+// akhir css
+
+// custom css
+
+.blok {
+    display: block;
+}
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+// akhir css
+
+// hasil css
+
+.contentshasil {
+    position: absolute;
+    top: 0;
+    right: 1%;
+    background-color: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.gambar {
+    width: 800px;
+    margin-left: 50%;
+}
+
+.textjudulhasil {
+    margin-left: 1%;
+    margin-top: -40%;
+    text-align: center;
+}
+
+.texthasil {
+    border-radius: 100px;
+    margin-top: -72px;
+    margin-left: 4%;
+    background-color: #E44C4C;
+    color: white;
+    height: 61px;
+    width: 200px;
+}
+
+.judultexthasil p {
+    margin-left: 35%;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.informasikmps p {
+    font-size: 30px;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.infrmasi1 {
+    margin-left: 18%;
+}
+
+.infrmasi2 {
+    margin-left: -13%;
+}
+
+.infrmasi3 {
+    margin-left: -13%;
+}
+
+.keunggulan p {
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+.keunggulan {
+    margin-left: 17.5%;
+}
+
+// akhir css
